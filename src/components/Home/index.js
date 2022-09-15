@@ -1,16 +1,28 @@
-import LogoTitle from '../../assets/images/MichaelAuricht.png';
-import { Link } from 'react-router-dom';
-import './index.scss';
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import AnimatedLetters from '../AnimatedLetters'
+import './index.scss'
+import Logo from './Logo'
 
 const Home = () => {
+  const [letterClass] = useState('text-animate')
+
+  const nameArray = [' ', 'M', 'i', 'c', 'h', 'a', 'e', 'l']
+  const surnameArray = ['A', 'u', 'r', 'i', 'c', 'h', 't', '.']
+
   return (
+    <>
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-          Hi, <br /> I'm
-        
-        <img src={LogoTitle} alt="developer" />
+        <span className={letterClass}>H</span>
+        <span className={`${letterClass} _12`}>i,</span>
         <br />
+        <span className={`${letterClass} _13`}>I</span>
+        <span className={`${letterClass} _14`}>'m </span>
+        <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
+        <br />
+        <AnimatedLetters letterClass={letterClass} strArray={surnameArray} idx={23} />
         </h1>
         <h2>
             Fullstack Web Developer
@@ -18,6 +30,8 @@ const Home = () => {
         <Link to='/contact' className='flat-button'>CONTACT ME</Link>
       </div>
     </div>
+    <Logo />
+    </>
   );
 }
 
