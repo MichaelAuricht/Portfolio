@@ -13,3 +13,7 @@ Primarily React, but also using sass and animate.css to make it feel a bit more 
 ## ---Screenshot---
 
 ![Example](./src/assets/images/readmepic.jpg)
+
+## ---Link---
+
+[Deployed Link](https://kaleidoscopic-flan-ba0be6.netlify.app/)
