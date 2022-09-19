@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Logo from './Logo'
+import Picture from './Photo'
 
 const Home = () => {
   const [letterClass] = useState('text-animate')
@@ -12,6 +13,7 @@ const Home = () => {
 
   return (
     <>
+    <Picture />
     <div className="container home-page">
       <div className="text-zone">
         <h1>

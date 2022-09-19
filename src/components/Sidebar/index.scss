@@ -48,7 +48,7 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: #72DFD0;
 
         svg {
           opacity: 0;
@@ -87,14 +87,14 @@
         content: 'CONTACT';
       }
     }
-    a.resume-link {
+    a.portfolio-link {
       &:after {
-        content: 'RESUME';
+        content: 'PORTFOLIO';
       }
     }
     a.active {
       svg {
-        color: #ffd700;
+        color: #72DFD0;
       }
     }
   }
@@ -117,7 +117,7 @@
             line-height: 20px;
 
             &:hover svg {
-                color: #ffd700;
+                color: #72DFD0;
             }
         }
     }

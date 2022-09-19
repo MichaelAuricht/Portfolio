@@ -11,6 +11,7 @@ import {
   faUser,
   faEnvelope,
   faBookOpen,
+  faFile,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -43,8 +44,8 @@ const Sidebar = () => (
       <NavLink
         exact="true"
         activeclassname="active"
-        className="resume-link"
-        to="/resume"
+        className="portfolio-link"
+        to="/portfolio"
       >
         <FontAwesomeIcon icon={faBookOpen} color="#4d4d4e" />
       </NavLink>
@@ -58,6 +59,11 @@ const Sidebar = () => (
       <li>
         <a target="_blank" rel="noreferrer" href="https://github.com/MichaelAuricht">
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a target="_blank" rel="noreferrer" href="../assets/MichaelAurichtCV2.pdf" download="MichaelAurichtCV2.pdf">
+          <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
         </a>
       </li>
     </ul>

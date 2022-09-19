@@ -11,6 +11,7 @@ import Logo from '../Home/Logo'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import Picture from '../Home/Photo'
 
 
 const About = () => {
@@ -18,6 +19,7 @@ const About = () => {
 
   return (
     <>
+    <Picture />
       <div className="container about-page">
         <div className="text-zone">
           <h1>
