@@ -1,25 +1,15 @@
 # - Portfolio -
 
-## -- Description --
-
 A professional programming portfolio built with React.
 
 ### ---Functionality ---
 
-### ---Development Process---
-
-### ---Installation & Usage Instructions---
+Includes About, Contact, Home, Portfolio pages as well as direct links to GitHub and LinkedIn with a download link for Resume.
 
 ### ---Technologies Used---
 
-### ---Challenges Encountered---
-
-### ---Directions for Future Development---
+Primarily React, but also using sass and animate.css to make it feel a bit more dynamic and interesting.
 
 ## ---Screenshot---
 
-![ThisIsAnImage](Link)
-
-## ---Links---
-
-[LinkName](Link)
+![Example](./src/assets/images/readmepic.jpg)
