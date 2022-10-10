@@ -62,7 +62,7 @@ const Sidebar = () => (
         </a>
       </li>
       <li>
-        <a target="_blank" rel="noreferrer" href="../assets/MichaelAurichtCV2.pdf" download="MichaelAurichtCV2.pdf">
+        <a target="_blank" rel="noreferrer" href="./src/assets/MichaelAurichtCV2.pdf" download="MichaelAurichtCV2.pdf">
           <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
         </a>
       </li>

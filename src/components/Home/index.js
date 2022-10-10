@@ -27,7 +27,7 @@ const Home = () => {
         <AnimatedLetters letterClass={letterClass} strArray={surnameArray} idx={23} />
         </h1>
         <h2>
-            Fullstack Web Developer
+            Fullstack Web Developer - mikeauricht@gmail.com
         </h2>
         <Link to='/contact' className='flat-button'>CONTACT ME</Link>
       </div>
