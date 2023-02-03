@@ -20,8 +20,7 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                    I am interested in any and all opportunities at this time. 
-                    However, feel free to contact me about anything via my email mikeauricht@gmail.com
+                    Feel free to contact me about anything via my email mikeauricht@gmail.com
                 </p>
             </div>
         </div>

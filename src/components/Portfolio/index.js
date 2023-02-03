@@ -13,19 +13,11 @@ const projectsData = [
     img: QnaS,
     link: "https://ma-qna.herokuapp.com/",
   },
-
-  {
-  
-  },
-
   {
     id: 3,
     name: "MOVIE BOX",
     img: BatmanS,
     link: "https://trietryannguyen.github.io/project-group-1/",
-  },
-  {
-    
   },
   {
     id: 5,
